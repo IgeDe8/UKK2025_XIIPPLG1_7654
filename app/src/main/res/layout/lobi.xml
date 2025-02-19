@@ -6,10 +6,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/Lobi"
+        android:id="@+id/Home"
         android:layout_width="178dp"
         android:layout_height="55dp"
-        android:text="Lobi"
+        android:text="Home"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40dp"
@@ -22,21 +22,21 @@
         app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Kategori"
         android:layout_width="288dp"
         android:layout_height="56dp"
-        android:text="Kategori"
+        android:layout_marginBottom="168dp"
         android:backgroundTint="#D3D3D3"
+        android:text="Kategori"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Lobi"
         app:layout_constraintVertical_bias="0.297" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
